@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // vite.config.js
 export default defineConfig({
   plugins: [react()],
-  base: '/coach-ia-ghpages/', // ← TRÈS IMPORTANT
+  base: '/coach-ia-ghpages/', 
 })

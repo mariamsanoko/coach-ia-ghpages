@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base:"/coach-ia-ghpages/react-coachia-cicd/",
+  base:"/coach-ia-ghpages/",
   server : {
     open:true,
     port: 3001,

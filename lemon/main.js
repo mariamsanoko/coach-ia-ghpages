@@ -16,16 +16,12 @@ const header = {
 const getProducts = async ()  => {
   try {
     
-    const response = await axios.get(
-      '${lsqyConfig.URL}/products',
-      {
-        headers
-      }
-    );
-
-    console.log(response)
+    const response = await axios.get('${lsqyConfig.URL}/products',{
+        header,
+      });
+        console.log(response)
   } catch (error) {
-    console.error(error)  
+    console.error(error)  ;
   }  
 }
 getProducts()
